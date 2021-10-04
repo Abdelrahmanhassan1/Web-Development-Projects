@@ -8,7 +8,7 @@ player_lives_count.textContent = player_lives;
 //Generate the data
 const getData = () => [
     {imgSrc:'./imgs/css.png', name:'css'},
-    {imgSrc:'./imgs/flutter.jpg', name:'flutter'},
+    {imgSrc:'./imgs/flutter.png', name:'flutter'},
     {imgSrc:'./imgs/html.png', name:'html'},
     {imgSrc:'./imgs/javascript.png', name:'javascript'},
     {imgSrc:'./imgs/lua.png', name:'lua'},
@@ -17,7 +17,7 @@ const getData = () => [
     {imgSrc:'./imgs/react.png', name:'react'},
     {imgSrc:'./imgs/python.png', name:'python'},
     {imgSrc:'./imgs/lua.png', name:'lua'},
-    {imgSrc:'./imgs/flutter.jpg', name:'flutter'},
+    {imgSrc:'./imgs/flutter.png', name:'flutter'},
     {imgSrc:'./imgs/react.png', name:'react'},
     {imgSrc:'./imgs/javascript.png', name:'javascript'},
     {imgSrc:'./imgs/R.jpg', name:'R'},
