@@ -57,3 +57,19 @@ h1{
     background: linear-gradient(rgb(255, 154, 154), rgb(182, 135, 135));
     border-radius: 10px;
 }
+
+
+@media screen and (max-width: 600px) {
+    section{
+        display: grid;
+        grid-template-columns: repeat(4, 5rem);
+        grid-template-rows: repeat(4, 5rem);
+        grid-gap: 1rem;
+        perspective: 800px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
